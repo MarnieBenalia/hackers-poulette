@@ -1,11 +1,8 @@
 .form-container{
     text-align: center;
-    background-color: #09a576;
-    color: $dark-font;
-    max-width: 40em;
+    //max-width: 40em;
     padding:3%;
 }
-
 
 .form-control input,
 .form-control textarea{
@@ -13,9 +10,11 @@
     padding: 9px 16px;
     width: 90%;
     margin-bottom:1em;
+    border: 1px solid rgb(73, 73, 73);
 }
 
 .form-control select{
+
     background-color: white;
     width: 95%;
     border: none;
@@ -23,6 +22,15 @@
     margin-bottom:1em;
     cursor: pointer;
 }
+
+.asterix{
+    color:red;
+}
+
+textarea {
+    height: 10em;
+    resize: none;
+  }
 
 .checkout-submit-btn{
     background-color: #585858;

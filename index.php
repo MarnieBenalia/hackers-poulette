@@ -8,18 +8,20 @@
         $_POST["lastname"] = trim(filter_var($_POST["lastname"], FILTER_SANITIZE_STRING));
     }
 ?>
+<h2 class="c&s">Contact et support</h2>
+<h3 class="sendmess">Envoyez-nous un message</h3>
 
 <article class="form-container">  
         <form method="POST">
             <div class="form-control">
-                <label for="text">*</label>
                 <input class="form-input"  type="text" name="first_name" placeholder="First name" required>
-                <label for="text">*</label>
+                <label class="asterix" for="text">*</label>
                 <input class="form-input"  type="text" name="last_name" placeholder="Last Name" required>
-                <label for="text">*</label>
+                <label class="asterix" for="text">*</label>
                 <input class="form-input"  type="email" name="email" placeholder="Email" required>
-                <label for="text">*</label>
-                <input class="form-input" type="text"  name="phone_number" placeholder="Phone number" required>
+                <label class="asterix" for="text">*</label>
+                <input class="form-input" type="text"  name="phone_number" placeholder="Phone number"required>
+                <label class="asterix" for="text">*</label>
                 <textarea class="form-input" type="text" name="Message" placeholder="Message" required></textarea>
 
             </div>
