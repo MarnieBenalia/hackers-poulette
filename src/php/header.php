@@ -7,11 +7,12 @@
     <title>Hackers-Poulette</title>
     <link rel="shortcut icon" href="/src/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../src/sass/style.css">
-    <script defer type="module" src="./src/js/script.js"></script>
-    <script defer src="https://www.google.com/recaptcha/api.js"></script>
-
+    <script defer type="module" src="../src/js/script.js"></script>
 </head>
 <body>
+
 <header>
- <h2 class="contact">Contact</h2>
+
+    <h2 class="contact">Contact</h2>
+    
 </header>

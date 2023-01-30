@@ -14,7 +14,7 @@
     <h3 class="sendmess">Envoyez-nous un message</h3>
 </div>
 
-<article class="form-container" action="verify.php">  
+<article class="form-container">  
         <form method="POST">
             <div class="form-control">
                 <input class="form-input"  type="text" name="first_name" placeholder="First name" required>
@@ -35,7 +35,8 @@
                 <div class="form-control">
                 <textarea class="form-input" type="text" name="Message" placeholder="Message"></textarea>
             </div>
-                <button class="checkout-submit-btn" class="g-recaptcha"  data-sitekey="6Lck4DokAAAAAFwrx4S5VGUbfKXTdfv8AvXY-BLo"  data-callback='onSubmit' data-action='submit'>Send</button>
+                <button class="checkout-submit-btn" type="submit">Send</button>
+            
         </form> 
 </article>
 
