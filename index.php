@@ -14,7 +14,7 @@
 
 <article class="form-container">  
 
-        <form method="POST" action="checkout.php">
+        <form method="POST">
             <div class="form-control">
                 <input class="form-input"  type="text" name="first_name" placeholder="First name" required>
                 <input class="form-input"  type="text" name="last_name" placeholder="Last Name" required>
