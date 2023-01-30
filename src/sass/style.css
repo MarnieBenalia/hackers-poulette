@@ -7,6 +7,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.txt-contact {
+  text-align: center;
+  padding: 3%;
+}
+
 .form-container {
   text-align: center;
   padding: 3%;
@@ -18,7 +23,17 @@ body {
   padding: 9px 16px;
   width: 90%;
   margin-bottom: 1em;
-  border: 1px solid rgb(73, 73, 73);
+  background-color: #ededed;
+  border-radius: 0.6em;
+}
+
+.form-control {
+  position: relative;
+}
+
+.form-control label {
+  position: absolute;
+  left: 1em;
 }
 
 .form-control select {
@@ -36,14 +51,15 @@ body {
 
 textarea {
   height: 10em;
+  width: auto;
   resize: none;
 }
 
 .checkout-submit-btn {
-  background-color: #585858;
-  width: 7em;
+  background-color: #ffc145;
+  width: 15em;
   border-radius: 5em;
-  color: #fff;
+  color: rgb(29, 29, 29);
   cursor: pointer;
   border: none;
   font-size: 16px;
@@ -52,8 +68,8 @@ textarea {
   font-weight: 800;
 }
 .checkout-submit-btn:hover {
-  color: #585858;
-  background-color: #fff;
+  color: rgb(29, 29, 29);
+  background-color: #ffd685;
 }
 
 header {

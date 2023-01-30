@@ -8,25 +8,35 @@
         $_POST["lastname"] = trim(filter_var($_POST["lastname"], FILTER_SANITIZE_STRING));
     }
 ?>
-<h2 class="c&s">Contact et support</h2>
-<h3 class="sendmess">Envoyez-nous un message</h3>
 
-<article class="form-container">  
+<div class="txt-contact">
+    <h2 class="c&s">Contact et support</h2>
+    <h3 class="sendmess">Envoyez-nous un message</h3>
+</div>
+
+<article class="form-container" action="verify.php">  
         <form method="POST">
             <div class="form-control">
                 <input class="form-input"  type="text" name="first_name" placeholder="First name" required>
                 <label class="asterix" for="text">*</label>
+            </div>
+            <div class="form-control">
                 <input class="form-input"  type="text" name="last_name" placeholder="Last Name" required>
                 <label class="asterix" for="text">*</label>
+            </div>
+                <div class="form-control">
                 <input class="form-input"  type="email" name="email" placeholder="Email" required>
                 <label class="asterix" for="text">*</label>
-                <input class="form-input" type="text"  name="phone_number" placeholder="Phone number"required>
-                <label class="asterix" for="text">*</label>
-                <textarea class="form-input" type="text" name="Message" placeholder="Message" required></textarea>
-
             </div>
-            <button class="checkout-submit-btn" type="submit">Send</button>
-        </form>
+                <div class="form-control">
+                <input class="form-input" type="text"  name="phone_number" placeholder="Phone number"required>
+                <label class="asterix" for="text"> *</label>
+            </div>
+                <div class="form-control">
+                <textarea class="form-input" type="text" name="Message" placeholder="Message"></textarea>
+            </div>
+                <button class="checkout-submit-btn" class="g-recaptcha"  data-sitekey="6Lck4DokAAAAAFwrx4S5VGUbfKXTdfv8AvXY-BLo"  data-callback='onSubmit' data-action='submit'>Send</button>
+        </form> 
 </article>
 
 <?php require "src/php/footer.php"; ?>

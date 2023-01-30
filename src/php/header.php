@@ -8,6 +8,8 @@
     <link rel="shortcut icon" href="/src/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../src/sass/style.css">
     <script defer type="module" src="./src/js/script.js"></script>
+    <script defer src="https://www.google.com/recaptcha/api.js"></script>
+
 </head>
 <body>
 <header>
