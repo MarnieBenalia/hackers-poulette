@@ -1,3 +1,10 @@
+@import '_mixins';
+// pour importer un élément: @include absolute-el()
+@import '_placeholders'; 
+// pour importer un élément: @extend %lenomdetonplaceholder
+@import '_variables';
+// pour importer un élément: $exemplecouleur
+
 .txt-contact{
     text-align: center;
     padding:3%;
