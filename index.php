@@ -16,9 +16,10 @@
 
         <form method="POST" action="checkout.php">
             <div class="form-control">
-                <input class="form-input" id="firstname" type="text" name="first_name" placeholder="First name" required>
-                <input class="form-input" id="lastname" type="text" name="last_name" placeholder="Last Name" required>
-                <input class="form-input" id="email" type="email" name="email" placeholder="Email" required>
+                <input class="form-input"  type="text" name="first_name" placeholder="First name" required>
+                <input class="form-input"  type="text" name="last_name" placeholder="Last Name" required>
+                <input class="form-input"  type="email" name="email" placeholder="Email" required>
+                <input class="form-input" type="text"  name="phone_number" placeholder="Phone number" required>
             </div>
             <button class="checkout-submit-btn" type="submit">Send</button>
         </form>
