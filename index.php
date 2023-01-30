@@ -12,9 +12,13 @@
 <article class="form-container">  
         <form method="POST">
             <div class="form-control">
+                <label for="text">*</label>
                 <input class="form-input"  type="text" name="first_name" placeholder="First name" required>
+                <label for="text">*</label>
                 <input class="form-input"  type="text" name="last_name" placeholder="Last Name" required>
+                <label for="text">*</label>
                 <input class="form-input"  type="email" name="email" placeholder="Email" required>
+                <label for="text">*</label>
                 <input class="form-input" type="text"  name="phone_number" placeholder="Phone number" required>
                 <textarea class="form-input" type="text" name="Message" placeholder="Message" required></textarea>
 

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hackers-Poulette</title>
     <link rel="shortcut icon" href="/src/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="src/sass/style.css">
+    <link rel="stylesheet" href="src/style.css">
     <script defer type="module" src="./src/js/script.js"></script>
 </head>
 <body>
