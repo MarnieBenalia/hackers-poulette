@@ -14,7 +14,7 @@
     <h3 class="sendmess">Envoyez-nous un message</h3>
 </div>
 
-<article class="form-container">  
+<article class="form-container" action="checkout.php">  
         <form method="POST">
             <div class="form-control">
                 <input class="form-input"  type="text" name="first_name" placeholder="First name" required>
@@ -35,11 +35,8 @@
                 <div class="form-control">
                 <textarea class="form-input" type="text" name="Message" placeholder="Message"></textarea>
             </div>
-
                 <?php require "src/php/honeypot.php"; ?>
-                
                 <button class="checkout-submit-btn" type="submit">Send</button>
-            
         </form> 
 </article>
 

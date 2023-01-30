@@ -7,10 +7,10 @@ $phone_number_h = $_POST['phone_number_h'];
 
 
 if (empty($first_name_h) || empty($last_name_h) || empty($email_h) || empty($phone_number_h)) {
-  error_log('Activité malveillante détectée !');
+
+  echo('Activité malveillante détectée !');
 
 } else {
-    header('checkout.php');
-    exit;
+    echo('votre mail a bien été envoyer');
 }
 ?>
