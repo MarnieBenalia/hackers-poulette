@@ -1,19 +1,15 @@
 <?php require "src/php/header.php"; ?>
 
-<body>
-
 <?php
     if(isset($_POST["submit"])) {
         // Nettoyer les entrées de formulaire
         $_POST["email"] = trim(filter_var($_POST["email"], FILTER_SANITIZE_EMAIL));
         $_POST["firstname"] = trim(filter_var($_POST["firstname"], FILTER_SANITIZE_STRING));
         $_POST["lastname"] = trim(filter_var($_POST["lastname"], FILTER_SANITIZE_STRING));
-
     }
 ?>
 
 <article class="form-container">  
-
         <form method="POST">
             <div class="form-control">
                 <input class="form-input"  type="text" name="first_name" placeholder="First name" required>
@@ -25,4 +21,4 @@
         </form>
 </article>
 
-</body>
+<?php require "src/php/footer.php"; ?>
