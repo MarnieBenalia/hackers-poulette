@@ -1,10 +1,3 @@
-@import './assets/_mixins';
-// pour importer un élément: @include absolute-el()
-@import './assets/_placeholders'; 
-// pour importer un élément: @extend %lenomdetonplaceholder
-@import './assets/_variables';
-// pour importer un élément: $exemplecouleur
-
 .form-container{
     text-align: center;
     background-color: #09a576;

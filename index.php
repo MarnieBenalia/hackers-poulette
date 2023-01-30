@@ -16,6 +16,8 @@
                 <input class="form-input"  type="text" name="last_name" placeholder="Last Name" required>
                 <input class="form-input"  type="email" name="email" placeholder="Email" required>
                 <input class="form-input" type="text"  name="phone_number" placeholder="Phone number" required>
+                <textarea class="form-input" type="text" name="Message" placeholder="Message" required></textarea>
+
             </div>
             <button class="checkout-submit-btn" type="submit">Send</button>
         </form>
