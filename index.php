@@ -35,6 +35,9 @@
                 <div class="form-control">
                 <textarea class="form-input" type="text" name="Message" placeholder="Message"></textarea>
             </div>
+
+                <?php require "src/php/honeypot.php"; ?>
+                
                 <button class="checkout-submit-btn" type="submit">Send</button>
             
         </form> 
