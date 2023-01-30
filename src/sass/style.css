@@ -79,4 +79,15 @@ header {
 
 .contact {
   color: #E9F4FF;
+}
+
+@media only screen and (min-width: 1023px) {
+  .form-container {
+    display: flex;
+    justify-content: center;
+  }
+  .form-control input,
+.form-control textarea {
+    width: 70em;
+  }
 }/*# sourceMappingURL=style.css.map */
