@@ -11,5 +11,5 @@
 </head>
 
 <header>
- 
+ <h2 class="contact">Contact</h2>
 </header>
