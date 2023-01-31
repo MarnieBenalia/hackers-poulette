@@ -14,8 +14,8 @@
     <h3 class="sendmess">Envoyez-nous un message</h3>
 </div>
 
-<article class="form-container" action="checkout.php">  
-        <form method="POST">
+<article class="form-container" >  
+        <form method="POST" action="checkout.php">
             <div class="form-control">
                 <input class="form-input"  type="text" name="first_name" placeholder="First name" required>
                 <label class="asterix" for="text">*</label>
